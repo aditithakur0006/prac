@@ -6,7 +6,7 @@ pipeline {
             steps {
                 echo 'Building..'
                 sh "chmod +x add.sh"
-                sh '/var/lib/jenkins/workspace/github1/add.sh'
+                sh 'add.sh'
             }
         }
     }
