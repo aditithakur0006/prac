@@ -6,7 +6,7 @@ pipeline {
             steps {
                 echo 'Building..'
                 sh "chmod +x add.sh"
-                sh 'add.sh'
+                sh "add.sh"
             }
         }
     }
