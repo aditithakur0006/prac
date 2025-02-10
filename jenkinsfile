@@ -5,9 +5,8 @@ pipeline {
         stage('Build') {
             steps {
                 echo 'Building..'
-                sh '/path/to/add.sh'
-    
+                sh '/var/lib/jenkins/workspace/github1/add.sh'
             }
         }
-}
+    }
 }
